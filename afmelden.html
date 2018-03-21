@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>email afmelden</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>afmelden</h1><br>
+<a href="index.html"> klik hier om naar de startpagina te gaan</a>
+
+<form action="verwerking_afmelden.php" method="post">
+
+    <div>
+        <label for="naam">wat is je voornaam </label>
+        <input type="text" id="naam" name="naam" placeholder="voornaam" />
+        <label for="email">wat is je E-mail</label>
+        <input type="text" id="email" name="e_mail" placeholder="E-mail" required/>
+        <input type="submit" value="afmelden" name="submit" >
+    </div>
+</form>
+</body>
+</html>

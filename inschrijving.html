@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>email</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Inschrijven</h1>
+<br>
+<a href="index.html"> klik hier om naar de startpagina te gaan</a>
+<form action="verwerking_inschrijving.php" method="post">
+
+    <div>
+        <label for="naam">wat is je naam</label>
+        <input type="text" id="naam" name="naam" placeholder="Naam" required/><br>
+        <label for="tussenvoegsel">wat is je tusenvoegsel</label>
+        <input type="text" id="tussenvoegsel" name="tussenvoegsel" placeholder="tussenvoegsel"><br>
+        <label for="achternaam">wat is je achternaam</label>
+        <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required/><br>
+        <label for="email">wat is je E-mail</label>
+        <input type="text" id="email" name="email" placeholder="E-mail" required/><br>
+        <input type="submit" value="inschrijven" name="submit" >
+    </div>
+</form>
+</body>
+</html>

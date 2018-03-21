@@ -1,0 +1,16 @@
+body{
+    background: black;
+    color: white;
+
+}
+h1{
+    text-shadow: 2px 3px purple;
+}
+
+a{
+    color: aqua;
+}
+
+th{
+    border: 2px white solid;
+}
